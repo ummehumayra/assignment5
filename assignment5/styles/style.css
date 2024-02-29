@@ -1,0 +1,39 @@
+ /* <uniquifier>: Use a uniquifier for the class name */ */
+/* // <weight>: Use a value from 100 to 900 */
+
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+/* // <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 100 to 900 */
+
+.raleway-uniquifier {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.navbar{
+  max-width:1171px ;
+}
+.banner{
+  max-width: 1171px;
+  height: 550px;
+  background-image: url("../images/banner.png");
+  background-repeat:no-repeat ;
+}
+.selected-seats{
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  
+}
