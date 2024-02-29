@@ -79,7 +79,7 @@ function updatedGrandTotal(status) {
             document.getElementById("Grand-total").innerText = totalCost - discountPrice;
 
         } else {
-            alert("Plase Input valid code")
+            alert("Please Input Valid Code")
         }
         if (CouponCode =="NEW15" || CouponCode == "Couple 20" ){
             document.getElementById("Coupon-input").classList.add("hidden")
@@ -124,7 +124,7 @@ nextbtn.addEventListener('click',function(btn){
     const numberInput =document.getElementById("Phone-number").value;
     const nextBtn = document.getElementById("Next-btn");
     if(numberInput.length == 0  ) {
-         alert("input your phone number");
+         alert("Input Your Phone Number");
          return
     }
 
